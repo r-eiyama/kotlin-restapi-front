@@ -11,14 +11,14 @@ const routes = [{
     component: Home
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import('../views/About.vue')
+    path: '/dashboard',
+    name: 'dashboard',
+    component: () => import('../views/DashBoard.vue')
   },
   {
-    path: '/count',
-    name: '/count',
-    component: () => import('../views/Count.vue')
+    path: '/edit/:id',
+    name: 'edit',
+    component: () => import('../views/Edit.vue')
   }
 ]
 
